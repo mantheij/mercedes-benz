@@ -1,0 +1,93 @@
+[2026-01-27 21:49:55] Loaded fact table rows=1835 cols=53
+[2026-01-27 21:49:55] Wrote updated fact table: fact_orders.parquet rows=1835 cols=63
+[2026-01-27 21:49:55] Issues flagged: 1746
+[2026-01-27 22:21:00] Loaded fact table rows=1835 cols=53
+[2026-01-27 22:21:00] Wrote updated fact table: fact_orders.parquet rows=1835 cols=65
+[2026-01-27 22:21:00] Hard issues flagged: 96
+[2026-01-27 22:21:00] Warnings flagged: 1834
+[2026-01-27 22:21:00] Any flagged: 1834
+[2026-01-27 23:15:26] Loaded fact table rows=1835 cols=53
+[2026-01-27 23:15:26] Wrote updated fact table: fact_orders.parquet rows=1835 cols=65
+[2026-01-27 23:15:26] Hard issues flagged: 96
+[2026-01-27 23:15:26] Warnings flagged: 1834
+[2026-01-27 23:15:26] Any flagged: 1834
+[2026-01-27 23:17:54] Loaded fact table rows=1835 cols=53
+[2026-01-27 23:17:54] Wrote updated fact table: fact_orders.parquet rows=1835 cols=65
+[2026-01-27 23:17:54] Hard issues flagged: 96
+[2026-01-27 23:17:54] Warnings flagged: 1834
+[2026-01-27 23:17:54] Any flagged: 1834
+[2026-01-27 23:18:08] Loaded fact table rows=1835 cols=53
+[2026-01-27 23:18:08] Wrote updated fact table: fact_orders.parquet rows=1835 cols=65
+[2026-01-27 23:18:08] Hard issues flagged: 96
+[2026-01-27 23:18:08] Warnings flagged: 1834
+[2026-01-27 23:18:08] Any flagged: 1834
+[2026-01-27 23:18:16] Loaded fact table rows=1835 cols=53
+[2026-01-27 23:18:16] Wrote updated fact table: fact_orders.parquet rows=1835 cols=65
+[2026-01-27 23:18:16] Hard issues flagged: 96
+[2026-01-27 23:18:16] Warnings flagged: 1834
+[2026-01-27 23:18:16] Any flagged: 1834
+[2026-01-27 23:20:19] Loaded fact table rows=1835 cols=53
+[2026-01-27 23:20:19] Wrote updated fact table: fact_orders.parquet rows=1835 cols=65
+[2026-01-27 23:20:19] Hard issues flagged: 96
+[2026-01-27 23:20:19] Warnings flagged: 1834
+[2026-01-27 23:20:19] Any flagged: 1834
+[2026-01-27 23:24:49] Loaded fact table rows=1835 cols=53
+[2026-01-27 23:24:49] Wrote updated fact table: fact_orders.parquet rows=1835 cols=65
+[2026-01-27 23:24:49] Hard issues flagged: 96
+[2026-01-27 23:24:49] Warnings flagged: 1834
+[2026-01-27 23:24:49] Any flagged: 1834
+[2026-01-27 23:26:18] Loaded fact table rows=1835 cols=53
+[2026-01-27 23:26:18] Wrote updated fact table: fact_orders.parquet rows=1835 cols=65
+[2026-01-27 23:26:18] Hard issues flagged: 96
+[2026-01-27 23:26:18] Warnings flagged: 1834
+[2026-01-27 23:26:18] Any flagged: 1834
+[2026-01-27 23:26:37] Loaded fact table rows=1835 cols=53
+[2026-01-27 23:26:37] Wrote updated fact table: fact_orders.parquet rows=1835 cols=65
+[2026-01-27 23:26:37] Hard issues flagged: 96
+[2026-01-27 23:26:37] Warnings flagged: 1834
+[2026-01-27 23:26:37] Any flagged: 1834
+[2026-01-27 23:26:52] Loaded fact table rows=1835 cols=53
+[2026-01-27 23:26:52] Wrote updated fact table: fact_orders.parquet rows=1835 cols=65
+[2026-01-27 23:26:52] Hard issues flagged: 96
+[2026-01-27 23:26:52] Warnings flagged: 1834
+[2026-01-27 23:26:52] Any flagged: 1834
+[2026-01-27 23:27:09] Loaded fact table rows=1835 cols=53
+[2026-01-27 23:27:09] Wrote updated fact table: fact_orders.parquet rows=1835 cols=65
+[2026-01-27 23:27:09] Hard issues flagged: 96
+[2026-01-27 23:27:09] Warnings flagged: 1834
+[2026-01-27 23:27:09] Any flagged: 1834
+[2026-01-27 23:27:34] Loaded fact table rows=1835 cols=53
+[2026-01-27 23:27:34] Wrote updated fact table: fact_orders.parquet rows=1835 cols=65
+[2026-01-27 23:27:34] Hard issues flagged: 96
+[2026-01-27 23:27:34] Warnings flagged: 1834
+[2026-01-27 23:27:34] Any flagged: 1834
+[2026-01-27 23:29:27] Loaded fact table rows=1835 cols=53
+[2026-01-27 23:29:27] Wrote updated fact table: fact_orders.parquet rows=1835 cols=65
+[2026-01-27 23:29:27] Hard issues flagged: 96
+[2026-01-27 23:29:27] Warnings flagged: 1834
+[2026-01-27 23:29:27] Any flagged: 1834
+[2026-01-27 23:30:32] Loaded fact table rows=1835 cols=53
+[2026-01-27 23:30:32] Wrote updated fact table: fact_orders.parquet rows=1835 cols=65
+[2026-01-27 23:30:32] Hard issues flagged: 96
+[2026-01-27 23:30:32] Warnings flagged: 1834
+[2026-01-27 23:30:32] Any flagged: 1834
+[2026-01-28 18:14:31] Loaded fact table rows=1835 cols=53
+[2026-01-28 18:14:31] Wrote updated fact table: fact_orders.parquet rows=1835 cols=65
+[2026-01-28 18:14:31] Hard issues flagged: 96
+[2026-01-28 18:14:31] Warnings flagged: 1834
+[2026-01-28 18:14:31] Any flagged: 1834
+[2026-01-28 20:04:00] Loaded fact table rows=1835 cols=53
+[2026-01-28 20:04:00] Wrote updated fact table: fact_orders.parquet rows=1835 cols=65
+[2026-01-28 20:04:00] Hard issues flagged: 96
+[2026-01-28 20:04:00] Warnings flagged: 1834
+[2026-01-28 20:04:00] Any flagged: 1834
+[2026-01-29 11:54:57] Loaded fact table rows=1835 cols=53
+[2026-01-29 11:54:57] Wrote updated fact table: fact_orders.parquet rows=1835 cols=65
+[2026-01-29 11:54:57] Hard issues flagged: 96
+[2026-01-29 11:54:57] Warnings flagged: 1834
+[2026-01-29 11:54:57] Any flagged: 1834
+[2026-01-29 11:55:12] Loaded fact table rows=1835 cols=53
+[2026-01-29 11:55:12] Wrote updated fact table: fact_orders.parquet rows=1835 cols=65
+[2026-01-29 11:55:12] Hard issues flagged: 96
+[2026-01-29 11:55:12] Warnings flagged: 1834
+[2026-01-29 11:55:12] Any flagged: 1834

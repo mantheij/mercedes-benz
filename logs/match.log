@@ -1,0 +1,84 @@
+[2026-01-27 21:47:28] Starting match
+[2026-01-27 21:47:28] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-27 21:47:28] snapshot 2026-01-27: rows=2505 a_file=clean_a_2026-01-27.parquet b_file=clean_b_2026-01-27.parquet
+[2026-01-27 21:47:28] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-27 22:20:59] Starting match
+[2026-01-27 22:20:59] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-27 22:21:00] snapshot 2026-01-27: rows=2505
+[2026-01-27 22:21:00] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-27 23:01:26] Starting match
+[2026-01-27 23:01:26] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-27 23:01:26] snapshot 2026-01-27: rows=2505
+[2026-01-27 23:01:26] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-27 23:15:26] Starting match
+[2026-01-27 23:15:26] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-27 23:15:26] snapshot 2026-01-27: rows=2505
+[2026-01-27 23:15:26] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-27 23:17:54] Starting match
+[2026-01-27 23:17:54] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-27 23:17:54] snapshot 2026-01-27: rows=2505
+[2026-01-27 23:17:54] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-27 23:18:07] Starting match
+[2026-01-27 23:18:07] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-27 23:18:07] snapshot 2026-01-27: rows=2505
+[2026-01-27 23:18:07] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-27 23:18:16] Starting match
+[2026-01-27 23:18:16] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-27 23:18:16] snapshot 2026-01-27: rows=2505
+[2026-01-27 23:18:16] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-27 23:20:19] Starting match
+[2026-01-27 23:20:19] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-27 23:20:19] snapshot 2026-01-27: rows=2505
+[2026-01-27 23:20:19] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-27 23:24:49] Starting match
+[2026-01-27 23:24:49] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-27 23:24:49] snapshot 2026-01-27: rows=2505
+[2026-01-27 23:24:49] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-27 23:26:17] Starting match
+[2026-01-27 23:26:17] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-27 23:26:17] snapshot 2026-01-27: rows=2505
+[2026-01-27 23:26:17] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-27 23:26:37] Starting match
+[2026-01-27 23:26:37] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-27 23:26:37] snapshot 2026-01-27: rows=2505
+[2026-01-27 23:26:37] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-27 23:26:52] Starting match
+[2026-01-27 23:26:52] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-27 23:26:52] snapshot 2026-01-27: rows=2505
+[2026-01-27 23:26:52] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-27 23:27:09] Starting match
+[2026-01-27 23:27:09] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-27 23:27:09] snapshot 2026-01-27: rows=2505
+[2026-01-27 23:27:09] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-27 23:27:34] Starting match
+[2026-01-27 23:27:34] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-27 23:27:34] snapshot 2026-01-27: rows=2505
+[2026-01-27 23:27:34] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-27 23:29:27] Starting match
+[2026-01-27 23:29:27] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-27 23:29:27] snapshot 2026-01-27: rows=2505
+[2026-01-27 23:29:27] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-27 23:30:31] Starting match
+[2026-01-27 23:30:31] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-27 23:30:31] snapshot 2026-01-27: rows=2505
+[2026-01-27 23:30:31] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-28 18:11:07] Starting match
+[2026-01-28 18:11:07] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-28 18:12:19] Starting match
+[2026-01-28 18:12:19] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-28 18:14:31] Starting match
+[2026-01-28 18:14:31] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-28 18:14:31] snapshot 2026-01-27: rows=2505
+[2026-01-28 18:14:31] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-28 20:04:00] Starting match
+[2026-01-28 20:04:00] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-28 20:04:00] snapshot 2026-01-27: rows=2505
+[2026-01-28 20:04:00] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-29 11:54:55] Starting match
+[2026-01-29 11:54:55] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-29 11:54:57] snapshot 2026-01-27: rows=2505
+[2026-01-29 11:54:57] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-29 11:55:12] Starting match
+[2026-01-29 11:55:12] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
+[2026-01-29 11:55:12] snapshot 2026-01-27: rows=2505
+[2026-01-29 11:55:12] Wrote fact table: fact_orders.parquet rows=1835 cols=53

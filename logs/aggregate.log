@@ -1,0 +1,40 @@
+[2026-01-27 21:52:15] Loaded fact table rows=1835 cols=63
+[2026-01-27 21:52:15] Wrote: daily_kpis.csv rows=1
+[2026-01-27 21:52:15] Wrote: status_distribution_daily.csv rows=14
+[2026-01-27 21:52:15] Wrote: aging_buckets.csv rows=22
+[2026-01-27 21:52:15] Wrote: issue_cases.csv rows=1834
+[2026-01-27 22:21:00] Loaded fact table rows=1835 cols=65
+[2026-01-27 22:21:00] Wrote: daily_kpis.csv rows=1
+[2026-01-27 22:21:00] Wrote: status_distribution_daily.csv rows=14
+[2026-01-27 22:21:00] Wrote: aging_buckets.csv rows=22
+[2026-01-27 22:21:00] Wrote: issue_cases.csv rows=1834
+[2026-01-27 23:15:26] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:17:54] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:18:08] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:18:17] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:20:18] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:20:20] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:24:48] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:24:49] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:26:17] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:26:18] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:26:36] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:26:37] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:26:52] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:26:53] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:27:08] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:27:09] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:27:35] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:29:27] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:30:32] Loaded fact table rows=1835 cols=65
+[2026-01-27 23:30:32] Wrote Power BI CSVs
+[2026-01-28 18:14:31] Loaded fact table rows=1835 cols=65
+[2026-01-28 18:14:31] Wrote Power BI CSVs
+[2026-01-28 20:03:59] Loaded fact table rows=1835 cols=65
+[2026-01-28 20:03:59] Wrote Power BI CSVs
+[2026-01-28 20:04:01] Loaded fact table rows=1835 cols=65
+[2026-01-28 20:04:01] Wrote Power BI CSVs
+[2026-01-29 11:54:57] Loaded fact table rows=1835 cols=65
+[2026-01-29 11:54:57] Wrote Power BI CSVs
+[2026-01-29 11:55:13] Loaded fact table rows=1835 cols=65
+[2026-01-29 11:55:13] Wrote Power BI CSVs

@@ -1,0 +1,72 @@
+[2026-01-27 19:17:10] ERROR ingesting A file instance_a_2026-01-27.xlsx: Missing required columns ['cart_id'] in A file instance_a_2026-01-27.xlsx. Available columns: ['Cart Number', 'Assigned Quotations', 'Local Currency', 'created_at', 'EOY Forecast', 'First error at', 'From', 'From.1', 'Internal Note', 'Local Currency (Provider)', 'Purchase Order Number', 'Service End Date', 'Service Start Date', 'Service Tower', 'Service Year', 'Shopping Cart Total', 'Shopping Cart Total (in local currency)', 'status', 'substatus', 'Tags', 'Temporary approver', 'Temporary approver.1', 'To', 'To.1', 'Total YTD Consumption', 'updated_at', 'Updates']
+[2026-01-27 19:17:10] ERROR ingesting B file instance_b_2026-01-26.xlsx: Missing required columns ['cart_id', 'status', 'substatus'] in B file instance_b_2026-01-26.xlsx. Available columns: ['PO Number', 'Shopping Cart', 'Service Tower', 'OU/Plant ID', 'PO Start Date', 'PO End Date', 'Contract model', 'Received Date', 'Operating model', 'Quantity', 'Total cost', 'Active', 'created_at', 'updated_at']
+[2026-01-27 19:17:10] Done. processed A=0 B=0
+[2026-01-27 19:30:06] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-27 19:30:07] Wrote clean_b_2026-01-26.parquet rows=1855 cols=17 from instance_b_2026-01-26.xlsx
+[2026-01-27 19:30:07] Done. processed A=1 B=1
+[2026-01-27 21:40:04] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-27 21:40:04] Wrote clean_b_2026-01-26.parquet rows=1855 cols=17 from instance_b_2026-01-26.xlsx
+[2026-01-27 21:40:04] Done. processed A=1 B=1
+[2026-01-27 21:44:21] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-27 21:44:21] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-27 21:44:21] Done. processed A=1 B=1
+[2026-01-27 23:01:26] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-27 23:01:26] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-27 23:01:26] Done. processed A=1 B=1
+[2026-01-27 23:15:25] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-27 23:15:25] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-27 23:15:25] Done. processed A=1 B=1
+[2026-01-27 23:17:54] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-27 23:17:54] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-27 23:17:54] Done. processed A=1 B=1
+[2026-01-27 23:18:07] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-27 23:18:07] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-27 23:18:07] Done. processed A=1 B=1
+[2026-01-27 23:18:16] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-27 23:18:16] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-27 23:18:16] Done. processed A=1 B=1
+[2026-01-27 23:20:19] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-27 23:20:19] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-27 23:20:19] Done. processed A=1 B=1
+[2026-01-27 23:24:48] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-27 23:24:48] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-27 23:24:48] Done. processed A=1 B=1
+[2026-01-27 23:26:17] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-27 23:26:17] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-27 23:26:17] Done. processed A=1 B=1
+[2026-01-27 23:26:36] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-27 23:26:36] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-27 23:26:36] Done. processed A=1 B=1
+[2026-01-27 23:26:52] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-27 23:26:52] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-27 23:26:52] Done. processed A=1 B=1
+[2026-01-27 23:27:09] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-27 23:27:09] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-27 23:27:09] Done. processed A=1 B=1
+[2026-01-27 23:27:34] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-27 23:27:34] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-27 23:27:34] Done. processed A=1 B=1
+[2026-01-27 23:29:26] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-27 23:29:26] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-27 23:29:26] Done. processed A=1 B=1
+[2026-01-27 23:30:31] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-27 23:30:31] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-27 23:30:31] Done. processed A=1 B=1
+[2026-01-28 18:11:07] ERROR ingesting A file instance_a_2026-01-27.xlsx: Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+[2026-01-28 18:11:07] ERROR ingesting B file instance_b_2026-01-27.xlsx: Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+[2026-01-28 18:11:07] Done. processed A=0 B=0
+[2026-01-28 18:12:19] ERROR ingesting A file instance_a_2026-01-27.xlsx: Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+[2026-01-28 18:12:19] ERROR ingesting B file instance_b_2026-01-27.xlsx: Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+[2026-01-28 18:12:19] Done. processed A=0 B=0
+[2026-01-28 18:14:30] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-28 18:14:30] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-28 18:14:30] Done. processed A=1 B=1
+[2026-01-28 20:04:00] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-28 20:04:00] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-28 20:04:00] Done. processed A=1 B=1
+[2026-01-29 11:54:55] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-29 11:54:55] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-29 11:54:55] Done. processed A=1 B=1
+[2026-01-29 11:55:12] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-29 11:55:12] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-29 11:55:12] Done. processed A=1 B=1
