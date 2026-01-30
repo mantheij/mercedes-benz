@@ -13,3 +13,31 @@ snapshot_date,status,substatus,count
 2026-01-27,In Preparation,On Hold,111
 2026-01-27,In Preparation,Preparing,21
 2026-01-27,,,52
+2026-01-28,Cancelled,Cancelled - Synchronized,4
+2026-01-28,Cancelled,Cancelled - Unsynchronized,251
+2026-01-28,Cancelled,Provider PO assigned,1
+2026-01-28,Cancelled,Unequal values,5
+2026-01-28,Completed,Error,1
+2026-01-28,Completed,Missing PO copy,38
+2026-01-28,Completed,Provider PO assigned,1028
+2026-01-28,Completed,Unequal values,57
+2026-01-28,In PO creation,Creating,24
+2026-01-28,In PO creation,Error,19
+2026-01-28,In PO creation,On Hold,223
+2026-01-28,In Preparation,On Hold,111
+2026-01-28,In Preparation,Preparing,21
+2026-01-28,,,52
+2026-01-29,Cancelled,Cancelled - Synchronized,4
+2026-01-29,Cancelled,Cancelled - Unsynchronized,251
+2026-01-29,Cancelled,Provider PO assigned,1
+2026-01-29,Cancelled,Unequal values,5
+2026-01-29,Completed,Error,1
+2026-01-29,Completed,Missing PO copy,38
+2026-01-29,Completed,Provider PO assigned,1028
+2026-01-29,Completed,Unequal values,57
+2026-01-29,In PO creation,Creating,24
+2026-01-29,In PO creation,Error,19
+2026-01-29,In PO creation,On Hold,223
+2026-01-29,In Preparation,On Hold,111
+2026-01-29,In Preparation,Preparing,21
+2026-01-29,,,52

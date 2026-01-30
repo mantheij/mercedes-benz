@@ -91,3 +91,8 @@
 [2026-01-29 11:55:12] Hard issues flagged: 96
 [2026-01-29 11:55:12] Warnings flagged: 1834
 [2026-01-29 11:55:12] Any flagged: 1834
+[2026-01-30 23:30:32] Loaded fact table rows=5505 cols=53
+[2026-01-30 23:30:32] Wrote updated fact table: fact_orders.parquet rows=5505 cols=65
+[2026-01-30 23:30:32] Hard issues flagged: 288
+[2026-01-30 23:30:32] Warnings flagged: 5502
+[2026-01-30 23:30:32] Any flagged: 5502

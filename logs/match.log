@@ -82,3 +82,9 @@
 [2026-01-29 11:55:12] Found clean files: A=1 B=1 in /Users/janmanthei/Documents/Persönlich/Projects/mercedes/data/clean
 [2026-01-29 11:55:12] snapshot 2026-01-27: rows=2505
 [2026-01-29 11:55:12] Wrote fact table: fact_orders.parquet rows=1835 cols=53
+[2026-01-30 23:30:31] Starting match
+[2026-01-30 23:30:31] Found clean files: A=3 B=3 in C:\_Jan\Projekte\mercedes-benz\data\clean
+[2026-01-30 23:30:31] snapshot 2026-01-27: rows=2505
+[2026-01-30 23:30:31] snapshot 2026-01-28: rows=2505
+[2026-01-30 23:30:31] snapshot 2026-01-29: rows=2505
+[2026-01-30 23:30:31] Wrote fact table: fact_orders.parquet rows=5505 cols=53

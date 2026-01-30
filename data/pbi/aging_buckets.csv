@@ -21,3 +21,47 @@ snapshot_date,status,substatus,age_bucket,count
 2026-01-27,In Preparation,Preparing,4-30d,21
 2026-01-27,,,4-30d,41
 2026-01-27,,,>30d,11
+2026-01-28,Cancelled,Cancelled - Synchronized,4-30d,3
+2026-01-28,Cancelled,Cancelled - Synchronized,>30d,1
+2026-01-28,Cancelled,Cancelled - Unsynchronized,4-30d,24
+2026-01-28,Cancelled,Cancelled - Unsynchronized,>30d,227
+2026-01-28,Cancelled,Provider PO assigned,4-30d,1
+2026-01-28,Cancelled,Unequal values,>30d,5
+2026-01-28,Completed,Error,4-30d,1
+2026-01-28,Completed,Missing PO copy,4-30d,28
+2026-01-28,Completed,Missing PO copy,>30d,10
+2026-01-28,Completed,Provider PO assigned,4-30d,465
+2026-01-28,Completed,Provider PO assigned,>30d,563
+2026-01-28,Completed,Unequal values,4-30d,30
+2026-01-28,Completed,Unequal values,>30d,27
+2026-01-28,In PO creation,Creating,4-30d,24
+2026-01-28,In PO creation,Error,4-30d,19
+2026-01-28,In PO creation,On Hold,4-30d,70
+2026-01-28,In PO creation,On Hold,>30d,153
+2026-01-28,In Preparation,On Hold,4-30d,15
+2026-01-28,In Preparation,On Hold,>30d,96
+2026-01-28,In Preparation,Preparing,4-30d,21
+2026-01-28,,,4-30d,41
+2026-01-28,,,>30d,11
+2026-01-29,Cancelled,Cancelled - Synchronized,4-30d,3
+2026-01-29,Cancelled,Cancelled - Synchronized,>30d,1
+2026-01-29,Cancelled,Cancelled - Unsynchronized,4-30d,24
+2026-01-29,Cancelled,Cancelled - Unsynchronized,>30d,227
+2026-01-29,Cancelled,Provider PO assigned,4-30d,1
+2026-01-29,Cancelled,Unequal values,>30d,5
+2026-01-29,Completed,Error,4-30d,1
+2026-01-29,Completed,Missing PO copy,4-30d,28
+2026-01-29,Completed,Missing PO copy,>30d,10
+2026-01-29,Completed,Provider PO assigned,4-30d,465
+2026-01-29,Completed,Provider PO assigned,>30d,563
+2026-01-29,Completed,Unequal values,4-30d,30
+2026-01-29,Completed,Unequal values,>30d,27
+2026-01-29,In PO creation,Creating,4-30d,24
+2026-01-29,In PO creation,Error,4-30d,19
+2026-01-29,In PO creation,On Hold,4-30d,70
+2026-01-29,In PO creation,On Hold,>30d,153
+2026-01-29,In Preparation,On Hold,4-30d,15
+2026-01-29,In Preparation,On Hold,>30d,96
+2026-01-29,In Preparation,Preparing,4-30d,21
+2026-01-29,,,4-30d,41
+2026-01-29,,,>30d,11
