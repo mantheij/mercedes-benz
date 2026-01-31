@@ -96,3 +96,28 @@
 [2026-01-30 23:30:32] Hard issues flagged: 288
 [2026-01-30 23:30:32] Warnings flagged: 5502
 [2026-01-30 23:30:32] Any flagged: 5502
+[2026-01-30 23:47:04] Loaded fact table rows=5505 cols=53
+[2026-01-30 23:47:04] Wrote updated fact table: fact_orders.parquet rows=5505 cols=65
+[2026-01-30 23:47:04] Hard issues flagged: 288
+[2026-01-30 23:47:04] Warnings flagged: 5502
+[2026-01-30 23:47:04] Any flagged: 5502
+[2026-01-30 23:48:32] Loaded fact table rows=5505 cols=53
+[2026-01-30 23:48:32] Wrote updated fact table: fact_orders.parquet rows=5505 cols=65
+[2026-01-30 23:48:32] Hard issues flagged: 288
+[2026-01-30 23:48:32] Warnings flagged: 5502
+[2026-01-30 23:48:32] Any flagged: 5502
+[2026-01-30 23:51:38] Loaded fact table rows=5505 cols=53
+[2026-01-30 23:51:38] Wrote updated fact table: fact_orders.parquet rows=5505 cols=65
+[2026-01-30 23:51:38] Hard issues flagged: 2043
+[2026-01-30 23:51:38] Warnings flagged: 2121
+[2026-01-30 23:51:38] Any flagged: 2409
+[2026-01-31 00:38:24] Loaded fact table rows=5505 cols=53
+[2026-01-31 00:38:24] Wrote updated fact table: fact_orders.parquet rows=5505 cols=65
+[2026-01-31 00:38:24] Hard issues flagged: 2043
+[2026-01-31 00:38:24] Warnings flagged: 2121
+[2026-01-31 00:38:24] Any flagged: 2409
+[2026-01-31 00:45:10] Loaded fact table rows=5505 cols=53
+[2026-01-31 00:45:10] Wrote updated fact table: fact_orders.parquet rows=5505 cols=65
+[2026-01-31 00:45:10] Hard issues flagged: 2043
+[2026-01-31 00:45:10] Warnings flagged: 2121
+[2026-01-31 00:45:10] Any flagged: 2409

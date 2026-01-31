@@ -36,8 +36,21 @@ def _to_dt(series: pd.Series) -> pd.Series:
     return pd.to_datetime(series, errors="coerce", utc=True)
 
 
+def _norm_one(x) -> str | None:
+    if x is None or (isinstance(x, float) and pd.isna(x)) or pd.isna(x):
+        return None
+    s = str(x).strip()
+    s = s.replace("–", "-").replace("—", "-")
+    s = " ".join(s.split())
+    return s.lower()
+
+
 def _norm_str(series: pd.Series) -> pd.Series:
-    return series.astype("string").str.strip()
+    s = series.astype("string").str.strip()
+    s = s.str.replace("–", "-", regex=False).str.replace("—", "-", regex=False)
+    s = s.str.replace(r"\s+", " ", regex=True)
+    s = s.str.lower()
+    return s
 
 
 def compute_age_days(df: pd.DataFrame) -> pd.Series:
@@ -52,10 +65,21 @@ def unknown_status_substatus(df: pd.DataFrame) -> pd.Series:
     status = _norm_str(df.get("status_a", pd.Series(pd.NA, index=df.index)))
     sub = _norm_str(df.get("substatus_a", pd.Series(pd.NA, index=df.index)))
 
-    known_status = status.isin(list(STATUSES))
+    # normalize config values defensively (so you don't have to edit config.py)
+    statuses_norm = set(filter(None, (_norm_one(s) for s in STATUSES)))
+
+    sub_by_status_norm: dict[str, set[str]] = {}
+    for k, vals in SUBSTATUSES_BY_STATUS.items():
+        kn = _norm_one(k)
+        if not kn:
+            continue
+        vs = set(filter(None, (_norm_one(v) for v in (vals or []))))
+        sub_by_status_norm[kn] = vs
+
+    known_status = status.isin(list(statuses_norm))
     unknown_status = (~known_status) & status.notna()
 
-    allowed_sets = status.map(lambda s: SUBSTATUSES_BY_STATUS.get(str(s), set()) if pd.notna(s) else set())
+    allowed_sets = status.map(lambda s: sub_by_status_norm.get(str(s), set()) if pd.notna(s) else set())
 
     bad_sub = []
     for st, su, allowed in zip(status.tolist(), sub.tolist(), allowed_sets.tolist()):
@@ -85,14 +109,25 @@ def main() -> int:
 
     df["age_days"] = compute_age_days(df)
 
-    df["inprep_on_hold_gt_30d"] = (status_a == "In Preparation") & (sub_a == "On Hold") & (df["age_days"] > float(HOLD_PREPARATION_DAYS))
-    df["inpo_on_hold_gt_4d"] = (status_a == "In PO Creation") & (sub_a == "On Hold") & (df["age_days"] > float(HOLD_PO_CREATION_DAYS))
-    df["inpo_error_stuck_gt_4d"] = (status_a == "In PO Creation") & (sub_a == "Error") & (df["age_days"] > float(STUCK_IN_ERROR_DAYS))
-    df["completed_missing_po_copy"] = (status_a == "Completed") & (sub_a == "Missing PO Copy")
-    df["completed_unequal_values"] = (status_a == "Completed") & (sub_a == "Unequal Values")
-    df["cancelled_unsynchronized"] = (status_a == "Cancelled") & (sub_a == "Cancelled – Unsynchronized") & (df.get("exists_in_b", False) == False)
+    # IMPORTANT: strings are now normalized to lowercase + '-' dash
+    df["inprep_on_hold_gt_30d"] = (status_a == "in preparation") & (sub_a == "on hold") & (
+        df["age_days"] > float(HOLD_PREPARATION_DAYS)
+    )
+    df["inpo_on_hold_gt_4d"] = (status_a == "in po creation") & (sub_a == "on hold") & (
+        df["age_days"] > float(HOLD_PO_CREATION_DAYS)
+    )
+    df["inpo_error_stuck_gt_4d"] = (status_a == "in po creation") & (sub_a == "error") & (
+        df["age_days"] > float(STUCK_IN_ERROR_DAYS)
+    )
+    df["completed_missing_po_copy"] = (status_a == "completed") & (sub_a == "missing po copy")
+    df["completed_unequal_values"] = (status_a == "completed") & (sub_a == "unequal values")
+    df["cancelled_unsynchronized"] = (status_a == "cancelled") & (sub_a == "cancelled - unsynchronized") & (
+        df.get("exists_in_b", False) == False
+    )
 
-    df["cancelled_synchronized"] = (status_a == "Cancelled") & (sub_a == "Cancelled – Synchronized") & (df.get("exists_in_b", False) == True)
+    df["cancelled_synchronized"] = (status_a == "cancelled") & (sub_a == "cancelled - synchronized") & (
+        df.get("exists_in_b", False) == True
+    )
     df["unknown_status_or_substatus"] = unknown_status_substatus(df)
 
     hard_issue_cols = [
@@ -103,22 +138,36 @@ def main() -> int:
         "completed_unequal_values",
         "cancelled_unsynchronized",
     ]
-    warning_cols = [
+
+    df["hard_issue"] = df[hard_issue_cols].any(axis=1)
+
+    # -------- FIXED WARNING LOGIC --------
+    exists_a = (
+        df["exists_in_a"].fillna(False).astype(bool)
+        if "exists_in_a" in df.columns
+        else pd.Series(False, index=df.index)
+    )
+    exists_b = (
+        df["exists_in_b"].fillna(False).astype(bool)
+        if "exists_in_b" in df.columns
+        else pd.Series(False, index=df.index)
+    )
+
+    both_exist = exists_a & exists_b
+    missing_one_side = exists_a ^ exists_b
+
+    warning_cols_core = [
         "cancelled_synchronized",
         "unknown_status_or_substatus",
         "status_mismatch",
         "substatus_mismatch",
         "value_mismatch",
     ]
+    core_any = df.reindex(columns=warning_cols_core, fill_value=False).any(axis=1)
 
-    df["hard_issue"] = df[hard_issue_cols].any(axis=1)
-
-    warning_missing = pd.Series(False, index=df.index)
-    if "exists_in_a" in df.columns and "exists_in_b" in df.columns:
-        warning_missing = ((df["exists_in_a"] == True) & (df["exists_in_b"] == False)) | ((df["exists_in_a"] == False) & (df["exists_in_b"] == True))
-
-    df["warning"] = df[warning_cols].any(axis=1) | warning_missing
+    df["warning"] = missing_one_side | (both_exist & core_any)
     df["has_issue"] = df["hard_issue"] | df["warning"]
+    # ------------------------------------
 
     df.to_parquet(FACT_ORDERS_FILE, engine="pyarrow", index=False)
     _log(f"Wrote updated fact table: {FACT_ORDERS_FILE.name} rows={len(df)} cols={len(df.columns)}")

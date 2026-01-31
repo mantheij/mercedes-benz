@@ -77,3 +77,38 @@
 [2026-01-30 23:30:30] Wrote clean_b_2026-01-28.parquet rows=1855 cols=17 from instance_b_2026-01-28.xlsx
 [2026-01-30 23:30:30] Wrote clean_b_2026-01-29.parquet rows=1855 cols=17 from instance_b_2026-01-29.xlsx
 [2026-01-30 23:30:30] Done. processed A=3 B=3
+[2026-01-30 23:47:01] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-30 23:47:02] Wrote clean_a_2026-01-28.parquet rows=1783 cols=30 from instance_a_2026-01-28.xlsx
+[2026-01-30 23:47:02] Wrote clean_a_2026-01-29.parquet rows=1783 cols=30 from instance_a_2026-01-29.xlsx
+[2026-01-30 23:47:02] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-30 23:47:02] Wrote clean_b_2026-01-28.parquet rows=1855 cols=17 from instance_b_2026-01-28.xlsx
+[2026-01-30 23:47:02] Wrote clean_b_2026-01-29.parquet rows=1855 cols=17 from instance_b_2026-01-29.xlsx
+[2026-01-30 23:47:02] Done. processed A=3 B=3
+[2026-01-30 23:48:30] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-30 23:48:30] Wrote clean_a_2026-01-28.parquet rows=1783 cols=30 from instance_a_2026-01-28.xlsx
+[2026-01-30 23:48:30] Wrote clean_a_2026-01-29.parquet rows=1783 cols=30 from instance_a_2026-01-29.xlsx
+[2026-01-30 23:48:30] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-30 23:48:31] Wrote clean_b_2026-01-28.parquet rows=1855 cols=17 from instance_b_2026-01-28.xlsx
+[2026-01-30 23:48:31] Wrote clean_b_2026-01-29.parquet rows=1855 cols=17 from instance_b_2026-01-29.xlsx
+[2026-01-30 23:48:31] Done. processed A=3 B=3
+[2026-01-30 23:51:36] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-30 23:51:36] Wrote clean_a_2026-01-28.parquet rows=1783 cols=30 from instance_a_2026-01-28.xlsx
+[2026-01-30 23:51:36] Wrote clean_a_2026-01-29.parquet rows=1783 cols=30 from instance_a_2026-01-29.xlsx
+[2026-01-30 23:51:36] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-30 23:51:37] Wrote clean_b_2026-01-28.parquet rows=1855 cols=17 from instance_b_2026-01-28.xlsx
+[2026-01-30 23:51:37] Wrote clean_b_2026-01-29.parquet rows=1855 cols=17 from instance_b_2026-01-29.xlsx
+[2026-01-30 23:51:37] Done. processed A=3 B=3
+[2026-01-31 00:38:21] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-31 00:38:22] Wrote clean_a_2026-01-28.parquet rows=1783 cols=30 from instance_a_2026-01-28.xlsx
+[2026-01-31 00:38:22] Wrote clean_a_2026-01-29.parquet rows=1783 cols=30 from instance_a_2026-01-29.xlsx
+[2026-01-31 00:38:22] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-31 00:38:22] Wrote clean_b_2026-01-28.parquet rows=1855 cols=17 from instance_b_2026-01-28.xlsx
+[2026-01-31 00:38:22] Wrote clean_b_2026-01-29.parquet rows=1855 cols=17 from instance_b_2026-01-29.xlsx
+[2026-01-31 00:38:22] Done. processed A=3 B=3
+[2026-01-31 00:45:07] Wrote clean_a_2026-01-27.parquet rows=1783 cols=30 from instance_a_2026-01-27.xlsx
+[2026-01-31 00:45:07] Wrote clean_a_2026-01-28.parquet rows=1783 cols=30 from instance_a_2026-01-28.xlsx
+[2026-01-31 00:45:07] Wrote clean_a_2026-01-29.parquet rows=1783 cols=30 from instance_a_2026-01-29.xlsx
+[2026-01-31 00:45:08] Wrote clean_b_2026-01-27.parquet rows=1855 cols=17 from instance_b_2026-01-27.xlsx
+[2026-01-31 00:45:08] Wrote clean_b_2026-01-28.parquet rows=1855 cols=17 from instance_b_2026-01-28.xlsx
+[2026-01-31 00:45:08] Wrote clean_b_2026-01-29.parquet rows=1855 cols=17 from instance_b_2026-01-29.xlsx
+[2026-01-31 00:45:08] Done. processed A=3 B=3
